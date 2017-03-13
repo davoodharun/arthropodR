@@ -18,6 +18,8 @@ ag1 <- function(fileName){
   rownames(graph2) <- c("Number")
   graph2 <- as.table(graph2)
   graph2
+  
+  # print graph
   barplot(graph2)
 }
 
